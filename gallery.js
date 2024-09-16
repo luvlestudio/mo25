@@ -46,7 +46,7 @@ window.onload = () => {
     Kakao.Share.sendDefault({
       objectType: "feed",
       content: {
-        title: "김준영 ♥ 박민주의 모바일 청첩장",
+        title: "김현우 ♥ 정유주의 모바일 청첩장",
         description: "결혼식에 초대합니다♡",
         imageUrl: "https://i.imgur.com/tYuIfbQ.png",
         imageWidth: 1200,
