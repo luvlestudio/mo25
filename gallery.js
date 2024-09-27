@@ -48,7 +48,7 @@ window.onload = () => {
       content: {
         title: "김현우 ♥ 정유주의 모바일 청첩장",
         description: "결혼식에 초대합니다♡",
-        imageUrl: "https://i.imgur.com/tYuIfbQ.png",
+        imageUrl: "https://i.imgur.com/WtFO3JM.png",
         imageWidth: 1200,
         imageHeight: 630,
         link: {
