@@ -46,6 +46,10 @@
 </head>
 
 <body>
+  <div id="music-cover"
+    style="width: 100%; height: 100%; background: #ffffff; opacity: 0; position: fixed; z-index: 9999999;">
+    음악이 재생될 수 있습니다. 볼륨을 조절해주세요.
+  </div>
   <!-- 음악 파일을 숨긴 상태로 추가 -->
   <audio id="bgm" loop>
     <source src="./bgm.mp3" type="audio/mpeg">
@@ -156,7 +160,7 @@
         </section>
 
         <!-- 갤러리 -->
-        <section id="gallerySection"> 
+        <section id="gallerySection">
           <div id="galleryImages" class="gallery">
             <span style="
             color: #D46363;
@@ -189,9 +193,9 @@
               <img id="addGalleyItem" class="hidden" src="img/wedding/016.png" title="TITLE 16" />
 
 
-          </div>
-          <button id="showMoreBtn">더보기</button>
-          <button id="collapseBtn" style="display: none">접기</button>
+            </div>
+            <button id="showMoreBtn">더보기</button>
+            <button id="collapseBtn" style="display: none">접기</button>
         </section>
 
         <div class="animate-on-scroll">
@@ -234,7 +238,7 @@
 
         <!-- 오시는 길 -->
         <section id="locationSection" class="flex justify-center">
-          
+
           <div class="animate-on-scroll">
 
             <span style="
@@ -259,7 +263,7 @@
                   ">
                 <p>서울특별시 강남구 테헤란로 406</p>
                 <p style="font-weight: 600; color: #000000">
-                  샹제리제센터  A동, 르비르모어 2층
+                  샹제리제센터 A동, 르비르모어 2층
                 </p>
               </div>
               <div class="weddinghall-call-info">
@@ -388,7 +392,7 @@
               <ul>
                 <li><strong>신랑 김현우 : </strong>우리은행 1002-557-783307</li>
                 <li><strong>혼주 강인혜 : </strong>농협은행 352-0847-7369-63</li>
-              
+
 
               </ul>
             </div>
@@ -400,7 +404,7 @@
               <ul>
                 <li><strong>신부 정유주 : </strong>우리은행 1002-141-421270</li>
                 <li><strong>혼주 김정숙 : </strong>우리은행 1002-257-183669</li>
-              
+
 
                 <!-- <li>
                   <strong>신부 아버지</strong><br />농협 301819-52-029714
@@ -532,4 +536,5 @@
     <div class="swiper-button-prev"></div>
   </div>
 </body>
+
 </html>
